@@ -1,0 +1,7 @@
+pod "JMSecureEntryTextField", :path => "../JMSecureEntryTextField.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
