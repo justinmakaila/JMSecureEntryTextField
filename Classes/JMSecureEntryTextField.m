@@ -45,6 +45,7 @@
     
     _visibilityButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _visibilityButton.frame = CGRectMake(visibilityButtonXValue, 0, 40, 40);
+    _visibilityButton.backgroundColor = [UIColor grayColor];
     [_visibilityButton setTitle:@"YES" forState:UIControlStateNormal];
     [_visibilityButton setTitle:@"NO" forState:UIControlStateSelected];
     [_visibilityButton addTarget:self
